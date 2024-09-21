@@ -13,10 +13,10 @@ class Program
 
 
         DisplayMessage ();
-        string name = PromptUserName ();
+        string usName = PromptUserName ();
         int number = PromptUserNumber ();
         double x = SquareNumber (number);
-        DisplayResult (name, x);
+        DisplayResult (usName, x);
 
         
         
